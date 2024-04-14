@@ -10,7 +10,7 @@ function App() {
       <div className="flex flex-col 2xl:flex-row py-16 px-8 sm:p-16 xl:px-32 2xl:p-32 gap-16 sm:gap-24 2xl:gap-32">
         <div className="flex-1 flex flex-col gap-6 2xl:gap-12">
           <h1 className="text-white font-bold text-2xl lg:text-5xl xl:text-6xl">Let&apos;s improve your ACT scores, together.</h1>
-          <h2 className="text-white font-semibold text-md lg:text-lg">Work with a current high-school student who has achieved a 35 ACT and a perfect PSAT to improve your ACT scores right here in North Little Rock, Arkansas.</h2>
+          <h2 className="text-white font-semibold text-md lg:text-lg">Work with a current high-school student who has achieved a perfect ACT and PSAT to improve your ACT scores right here in North Little Rock, Arkansas.</h2>
           <div className="bg-blue-900 p-6 sm:p-8 flex flex-col gap-4 rounded-xl">
             <p className="text-white font-semibold text italic text-xs lg:text-base">&quot;Jonah Pulliam and Sawyer Bivens have been some of my most dedicated and hard-working students. I am sure that they can help improve your ACT score.&quot;</p>
             <div className="flex flex-col sm:flex-row gap-4 sm:items-center">
