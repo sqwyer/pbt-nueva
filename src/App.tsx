@@ -33,9 +33,9 @@ function App() {
         <div className="flex-1 flex flex-col gap-8 sm:gap-4">
           {[1,2,3,4,5].map((key) => 
             <div className="bg-white w-full rounded-lg flex flex-col sm:flex-row" key={key}>
-              <div className="pl-8 py-4">
+              <div className="p-4 sm:px-8">
                 <p className="font-bold text-sm sm:text-base">ACT Tutoring - One on One</p>
-                <p className="font-semibold text-xs sm:text-sm">5-7pm, April 10th 2024 @ 2801 Orange St NLR</p>
+                <p className="font-semibold text-[10px] sm:text-sm">5-7pm, April 10th 2024 @ 2801 Orange St NLR</p>
               </div>
               <button className="sm:ml-auto justify-center sm:justify-normal text-sm md:text-base px-4 md:px-8 py-3 sm:py-4 bg-red-600 font-semibold text-white flex flex-row items-center gap-2 md:gap-4 rounded-b-lg sm:rounded-bl-none sm:rounded-r-lg hover:gap-5 duration-100 shadow-lg sm:shadow-none">
                 <span>Book This Session</span>
