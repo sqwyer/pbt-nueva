@@ -5,7 +5,7 @@ import Star from "/star.svg"
 
 function App() {
   return (
-    <main className="bg-blue-800 min-h-screen">
+    <main className="bg-blue-800 min-h-screen relative">
       <Nav />
       <div className="flex flex-col 2xl:flex-row py-16 px-8 sm:p-16 xl:px-32 2xl:p-32 gap-16 sm:gap-24 2xl:gap-32">
         <div className="flex-1 flex flex-col gap-6 2xl:gap-12">
