@@ -6,7 +6,7 @@ import { useState } from "react"
 
 export function Nav() {
     let [navIsOpen, setNavIsOpen] = useState(false);
-    return <div className={`bg-white flex flex-col ${navIsOpen && "gap-4 shadow-lg"} md:shadow-none md:gap-0 px-16 xl:px-32 py-4`}>
+    return <div className={`bg-white flex flex-col ${navIsOpen && "gap-4 shadow-lg"} md:shadow-none md:gap-0 px-8 sm:px-16 xl:px-32 py-4`}>
         <div className="flex flex-row items-center">
             <img src={textmark} alt="Pulliam-Bivens Tutoring" className="h-8" />
             <div className="hidden md:flex flex-row gap-6 md:gap-8 lg:gap-12 xl:gap-16 ml-auto items-center">
