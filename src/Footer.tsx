@@ -14,11 +14,11 @@ export function Footer() {
             </div>
             <div className="flex flex-col gap-2 md:gap-1 flex-1">
                 <h2 className="font-semibold">Contact Us</h2>
-                <a className="text-sm bg-black bg-opacity-10 p-2 px-4 rounded-lg md:rounded-none md:p-0 md:bg-transparent md:text-blue-100 cursor-pointer hover:underline flex flex-row gap-1 items-center md:gap-0" href="mailto:jbpulliam06@gmail.com">
+                <a className="text-sm bg-black bg-opacity-10 p-2 px-4 rounded-lg md:rounded-none md:p-0 md:bg-transparent md:text-blue-100 cursor-pointer hover:underline flex flex-row gap-1 items-center md:gap-0" href="mailto:jbpulliam06@gmail.com?cc=sawyerbivens06@gmail.com">
                     <img src={Mail} className="h-3 md:hidden" />
                     <span>jbpulliam06@gmail.com</span>
                 </a>
-                <a className="text-sm bg-black bg-opacity-10 p-2 px-4 rounded-lg md:rounded-none md:p-0 md:bg-transparent md:text-blue-100 cursor-pointer hover:underline flex flex-row gap-1 items-center md:gap-0" href="mailto:sawyerbivens06@gmail.com">
+                <a className="text-sm bg-black bg-opacity-10 p-2 px-4 rounded-lg md:rounded-none md:p-0 md:bg-transparent md:text-blue-100 cursor-pointer hover:underline flex flex-row gap-1 items-center md:gap-0" href="mailto:sawyerbivens06@gmail.com?cc=jbpulliam06@gmail.com">
                     <img src={Mail} className="h-3 md:hidden" />
                     <span>sawyerbivens06@gmail.com</span>
                 </a>
