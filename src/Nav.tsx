@@ -6,7 +6,7 @@ import { useState } from "react"
 
 export function Nav() {
     let [navIsOpen, setNavIsOpen] = useState(false);
-    return <div className={`bg-white flex flex-col ${navIsOpen && "gap-4 shadow-lg"} md:shadow-none md:gap-0 px-8 sm:px-16 xl:px-32 py-4 sticky top-0 z-50`}>
+    return <div className={`bg-white flex flex-col ${navIsOpen && "gap-4"} shadow-lg md:gap-0 px-8 sm:px-16 xl:px-32 py-4 sticky top-0 z-50`}>
         <div className="flex flex-row items-center">
             <img src={textmark} alt="Pulliam-Bivens Tutoring" className="h-8" />
             <div className="hidden md:flex flex-row gap-6 md:gap-8 lg:gap-12 xl:gap-16 ml-auto items-center">
@@ -19,8 +19,8 @@ export function Nav() {
             </div>
             <div className="flex md:hidden ml-auto text-red-600 font-extrabold">
                 {navIsOpen 
-                    ? <img src={Close} alt="Close Menu" height={16} onClick={() => setNavIsOpen(false)}></img>
-                    : <img src={Menu} alt="Open Menu" height={16} onClick={() => setNavIsOpen(true)}></img>
+                    ? <img src={Close} alt="Close Menu" height={16} onClick={() => setNavIsOpen(false)} className="cursor-pointer"></img>
+                    : <img src={Menu} alt="Open Menu" height={16} onClick={() => setNavIsOpen(true)} className="cursor-pointer"></img>
                 }
             </div>
         </div>
